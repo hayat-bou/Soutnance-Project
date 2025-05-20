@@ -25,9 +25,11 @@ const About = () => {
               Discover how we help pets find their forever homes.
             </p>
             <div className="mt-66">
+              <Link to="/petlist">
               <button className="bg-orange-500 hover:bg-orange-600 text-white font-semibold py-3 px-8 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
                 Meet Our Pets
               </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -191,9 +193,11 @@ const About = () => {
             <p className="mb-4">
               Financial contributions help us provide food, medical care, and shelter for animals in need.
             </p>
+            <Link to="/donate">
             <button className="bg-white text-orange-600 font-semibold py-2 px-4 rounded-lg hover:bg-gray-100 transition-colors">
               Donate Now
             </button>
+            </Link>
           </div>
           
           <div className="bg-white/10 p-6 rounded-xl backdrop-blur-sm hover:bg-white/20 transition-all duration-300">
@@ -202,9 +206,11 @@ const About = () => {
             <p className="mb-4">
               Share your time and skills to help care for our animals and support our operations.
             </p>
+            <Link to='/contactus'>
             <button className="bg-white text-orange-600 font-semibold py-2 px-4 rounded-lg hover:bg-gray-100 transition-colors">
               Volunteer
             </button>
+            </Link>
           </div>
           
           <div className="bg-white/10 p-6 rounded-xl backdrop-blur-sm hover:bg-white/20 transition-all duration-300">
@@ -213,9 +219,11 @@ const About = () => {
             <p className="mb-4">
               Provide temporary homes for animals as they await their forever families.
             </p>
+            <Link to='/contactus'>
             <button className="bg-white text-orange-600 font-semibold py-2 px-4 rounded-lg hover:bg-gray-100 transition-colors">
               Learn More
             </button>
+            </Link>
           </div>
         </div>
       </section>
@@ -230,10 +238,12 @@ const About = () => {
           <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-8">
             Have questions about adoption, volunteering, or donations? We'd love to hear from you!
           </p>
+          <Link to='/contactus'>
           <button className="bg-orange-500 hover:bg-orange-600 text-white font-semibold py-3 px-8 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
             
             Contact Us
           </button>
+          </Link>
           <div className="mt-8 flex justify-center space-x-6">
             <a href="https://www.facebook.com/hayat.bou.55/" className="text-gray-500 hover:text-orange-500 transition-colors">
               <span className="sr-only">Facebook</span>

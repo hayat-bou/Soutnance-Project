@@ -455,7 +455,83 @@
         "country": "Morocco"
       },
       "description": "Calm and cuddly",
-      "image": "/public/images/dog1.jpeg"
+      "image": "/public/images/img9.jpeg"
+    },
+    {
+      "id": 22,
+      "name": "Lutcy",
+      "species": "Cat",
+      "breed": "Maine Coon",
+      "age": 2,
+      "gender": "Female",
+      "size": "Medium",
+      "adoptionStatus": "Available",
+      "vaccinated": true,
+      "adoptableSince": "2025-02-15",
+      "location": {
+        "city": "Rabat",
+        "state": "Rabat-Salé-Kénitra",
+        "country": "Morocco"
+      },
+      "description": "Bright and lively",
+      "image": "/public/images/img4.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Robin",
+      "species": "Bird",
+      "breed": "Cockatoo",
+      "age": 23,
+      "gender": "Male",
+      "size": "Large",
+      "adoptionStatus": "Available",
+      "vaccinated": true,
+      "adoptableSince": "2025-05-02",
+      "location": {
+        "city": "Oujda",
+        "state": "Oriental",
+        "country": "Morocco"
+      },
+      "image": "/public/images/img3.jpeg",
+      "description": "Bright and lively, full of songs and playful energy"
+    },
+    {
+      "id": 14,
+      "name": "Rabbi",
+      "species": "Rabbit",
+      "breed": "Maine Coon",
+      "age": 1,
+      "gender": "Female",
+      "size": "Medium",
+      "adoptionStatus": "Available",
+      "vaccinated": true,
+      "adoptableSince": "2025-04-30",
+      "location": {
+        "city": "Taza",
+        "state": "Taza-Al Hoceïma-Taounate",
+        "country": "Morocco"
+      },
+      "image": "/public/images/img2.jpeg",
+      "description": "Soft and cuddly"
+    },
+    {
+      "id": "22",
+      "name": "Eva",
+      "species": "Cat",
+      "breed": "Cat",
+      "age": 2,
+      "gender": "Female",
+      "size": "Medium",
+      "adoptionStatus": "Available",
+      "vaccinated": true,
+      "adoptableSince": "2025-05-01",
+      "location": {
+        "city": "Tiznit",
+        "state": "Tiznit",
+        "country": "Morocco"
+      },
+      "image": "https://res.cloudinary.com/dalun8m2a/image/upload/v1747681950/fg8rffd9kytlo1ymfpna.jpg",
+      "description": "Curious and Independent"
     },
     {
       "id": 2,
@@ -475,6 +551,25 @@
       },
       "description": "Independent and self-sufficient",
       "image": "/public/images/cat11.jpeg"
+    },
+    {
+      "id": 17,
+      "name": "Tokyo",
+      "species": "Dog",
+      "breed": "Husky",
+      "age": 5,
+      "gender": "Female",
+      "size": "Large",
+      "adoptionStatus": "Available",
+      "vaccinated": true,
+      "adoptableSince": "2025-05-02",
+      "location": {
+        "city": "Oujda",
+        "state": "Oriental",
+        "country": "Morocco"
+      },
+      "image": "/public/images/img8.avif",
+      "description": "Fun-loving and silly "
     },
     {
       "id": 3,
@@ -746,7 +841,7 @@
       "id": 17,
       "name": "Tokyo",
       "species": "Dog",
-      "breed": "Husky",
+      "breed": "Bulldog",
       "age": 5,
       "gender": "Female",
       "size": "Large",
@@ -838,22 +933,45 @@
       "description": "Curious and adventurous"
     },
     {
-      "id": "aabd",
-      "name": "ghjkledrftgyhjkl",
-      "species": "tyuiop",
-      "breed": "ftgyhujikol",
+      "id": "24",
+      "name": "Nibbles",
+      "species": "Hamster",
+      "breed": "Syrian Hamster",
       "age": 1,
-      "gender": "",
-      "size": "tgyhuh",
-      "adoptionStatus": "ftgyhujiko",
+      "gender": "Male",
+      "size": "Small",
+      "adoptionStatus": "Adopted",
       "vaccinated": true,
-      "adoptableSince": "2025-05-21",
+      "adoptableSince": "2025-05-10",
       "location": {
-        "city": "Tiznit",
-        "state": "rtyui",
+        "city": "Agadir",
+        "state": "Souss-Massa",
         "country": "Morocco"
       },
-      "image": "https://res.cloudinary.com/dalun8m2a/image/upload/v1747681950/fg8rffd9kytlo1ymfpna.jpg"
+      "image": "/images/rabbit1.jpeg",
+      "description": "Friendly and loves to explore tunnels."
+    },
+    {
+      "id": "26",
+      "name": "Alex",
+      "species": "Dog",
+      "breed": "Caniche",
+      "age": 1,
+      "gender": "Male",
+      "size": "Small",
+      "adoptionStatus": "Available",
+      "vaccinated": true,
+      "adoptableSince": "2025-05-16",
+      "location": {
+        "city": "Nador",
+        "state": "Nador",
+        "country": "Morocco"
+      },
+      "image": "/images/dog7.jpeg",
+      "description": "Friendly and loves to explore tunnels."
     }
+    
+    
+
   ]
 }

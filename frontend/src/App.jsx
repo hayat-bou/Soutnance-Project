@@ -13,6 +13,7 @@ import NotFound from './Pages/notFound';
 import Dashboard from './Components/Dashboard';
 import Navbar from './Components/Navbar';
 import Login from './Components/Login';
+import Donate from './Pages/Donate';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
           <Route path="/favorites" element={<Favorites />} />
           <Route path="/login" element={<Login />} />
           <Route path="*" element={<NotFound />} />
+          <Route path="/donate" element={<Donate />} />
         </Routes>
       </main>
     </div>

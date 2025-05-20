@@ -297,7 +297,7 @@ const Favorites = () => {
                     disabled={!isFormValid()}
                     className={`mt-6 w-full border border-transparent rounded-md py-3 px-4 text-base font-medium text-white focus:outline-none focus:ring-2 focus:ring-offset-2 transition duration-300 ${
                       isFormValid() 
-                        ? 'bg-green-600 hover:bg-green-700 focus:ring-green-500'
+                        ? 'bg-orange-600 hover:bg-orange-700 focus:ring-orange-500'
                         : 'bg-gray-400 cursor-not-allowed'
                     }`}
                   >

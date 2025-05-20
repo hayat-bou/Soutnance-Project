@@ -135,7 +135,7 @@ const PetList = () => {
                 key={animal.id}
                 className="group flex flex-col justify-between max-w-xs w-full mx-auto bg-white shadow-xl rounded-xl overflow-hidden transform hover:-translate-y-2 transition-all duration-300 ease-in-out h-[650px] hover:shadow-2xl border-2 border-transparent hover:border-orange-200"
               >
-                <div className="relative overflow-hidden h-56">
+                <div className="relative overflow-hidden h-76">
                   <img 
                     src={animal.image} 
                     alt={animal.name} 

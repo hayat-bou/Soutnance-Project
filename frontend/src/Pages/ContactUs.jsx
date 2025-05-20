@@ -54,7 +54,7 @@ const ContactUs = () => {
         />
         <div className="absolute inset-0 flex items-center justify-center z-20">
           <h1 className="text-4xl md:text-5xl font-bold text-black text-center px-4 drop-shadow-lg">
-            Get In <span className="text-orange-300">Touch</span>
+            Get In <span className="text-orange-500">Touch</span>
           </h1>
         </div>
       </div>
