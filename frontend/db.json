@@ -439,23 +439,80 @@
   ],
   "pets": [
     {
-      "id": 1,
-      "name": "Buddy",
-      "species": "Dog",
-      "breed": "chiuahua",
+      "id": 9,
+      "name": "Bella",
+      "species": "Cat",
+      "breed": "Maine Coon",
       "age": 3,
-      "gender": "Male",
-      "size": "Small",
+      "gender": "Female",
+      "size": "Medium",
       "adoptionStatus": "Available",
       "vaccinated": true,
-      "adoptableSince": "2025-01-10",
+      "adoptableSince": "2025-04-01",
       "location": {
-        "city": "Casablanca",
-        "state": "Casablanca-Settat",
+        "city": "Taza",
+        "state": "Taza-Al Hoceïma-Taounate",
         "country": "Morocco"
       },
-      "description": "Calm and cuddly",
-      "image": "/public/images/img9.jpeg"
+      "image": "/public/images/cat6.jpeg",
+      "description": "Playful and curiou"
+    },
+    {
+      "id": 5,
+      "name": "Charlie",
+      "species": "Dog",
+      "breed": "Berger Suisse",
+      "age": 4,
+      "gender": "Male",
+      "size": "Large",
+      "adoptionStatus": "Adopted",
+      "vaccinated": true,
+      "adoptableSince": "2025-01-05",
+      "location": {
+        "city": "Tangier",
+        "state": "Tanger-Tétouan-Al Hoceïma",
+        "country": "Morocco"
+      },
+      "image": "/public/images/dog8.jpeg",
+      "description": "Friendly and sociable"
+    },
+    {
+      "id": 6,
+      "name": "Luna",
+      "species": "Cat",
+      "breed": "",
+      "age": "1",
+      "gender": "Female",
+      "size": "Medium",
+      "adoptionStatus": "Available",
+      "vaccinated": true,
+      "adoptableSince": "2025-04-01",
+      "location": {
+        "city": "Taza",
+        "state": "Taza-Al Hoceïma-Taounate",
+        "country": "Morocco"
+      },
+      "image": "/public/images/cat9.jpeg",
+      "description": "Affectionate and cuddly "
+    },
+    {
+      "id": 19,
+      "name": "Athéna",
+      "species": "Rabbit",
+      "breed": "American Chinchilla",
+      "age": "1.5",
+      "gender": "Female",
+      "size": "Large",
+      "adoptionStatus": "Available",
+      "vaccinated": true,
+      "adoptableSince": "2025-04-02",
+      "location": {
+        "city": "Oujda",
+        "state": "Oriental",
+        "country": "Morocco"
+      },
+      "image": "/public/images/rabbit5.jpg",
+      "description": "Sensitive and gentle "
     },
     {
       "id": 22,
@@ -481,7 +538,7 @@
       "name": "Robin",
       "species": "Bird",
       "breed": "Cockatoo",
-      "age": 23,
+      "age": 1,
       "gender": "Male",
       "size": "Large",
       "adoptionStatus": "Available",
@@ -492,7 +549,7 @@
         "state": "Oriental",
         "country": "Morocco"
       },
-      "image": "/public/images/img3.jpeg",
+      "image": "images/img3.jpeg",
       "description": "Bright and lively, full of songs and playful energy"
     },
     {
@@ -511,7 +568,7 @@
         "state": "Taza-Al Hoceïma-Taounate",
         "country": "Morocco"
       },
-      "image": "/public/images/img2.jpeg",
+      "image": "images/img2.jpeg",
       "description": "Soft and cuddly"
     },
     {
@@ -610,44 +667,6 @@
       "description": "Gentle and curious"
     },
     {
-      "id": 5,
-      "name": "Charlie",
-      "species": "Dog",
-      "breed": "Berger Suisse",
-      "age": 4,
-      "gender": "Male",
-      "size": "Large",
-      "adoptionStatus": "Adopted",
-      "vaccinated": true,
-      "adoptableSince": "2025-01-05",
-      "location": {
-        "city": "Tangier",
-        "state": "Tanger-Tétouan-Al Hoceïma",
-        "country": "Morocco"
-      },
-      "image": "/public/images/dog8.jpeg",
-      "description": "Friendly and sociable"
-    },
-    {
-      "id": 6,
-      "name": "Luna",
-      "species": "Cat",
-      "breed": "",
-      "age": "1",
-      "gender": "Female",
-      "size": "Medium",
-      "adoptionStatus": "Available",
-      "vaccinated": true,
-      "adoptableSince": "2025-04-01",
-      "location": {
-        "city": "Taza",
-        "state": "Taza-Al Hoceïma-Taounate",
-        "country": "Morocco"
-      },
-      "image": "/public/images/cat9.jpeg",
-      "description": "Affectionate and cuddly "
-    },
-    {
       "id": 7,
       "name": "Rocky",
       "species": "Dog",
@@ -684,25 +703,6 @@
       },
       "image": "/public/images/bird4.jpeg",
       "description": "Vibrant and colorful"
-    },
-    {
-      "id": 9,
-      "name": "Bella",
-      "species": "Cat",
-      "breed": "Maine Coon",
-      "age": 3,
-      "gender": "Female",
-      "size": "Medium",
-      "adoptionStatus": "Available",
-      "vaccinated": true,
-      "adoptableSince": "2025-04-01",
-      "location": {
-        "city": "Taza",
-        "state": "Taza-Al Hoceïma-Taounate",
-        "country": "Morocco"
-      },
-      "image": "/public/images/cat6.jpeg",
-      "description": "Playful and curiou"
     },
     {
       "id": 10,
@@ -800,6 +800,25 @@
       "description": "Soft and cuddly"
     },
     {
+      "id": 1,
+      "name": "Buddy",
+      "species": "Dog",
+      "breed": "chiuahua",
+      "age": 3,
+      "gender": "Male",
+      "size": "Small",
+      "adoptionStatus": "Available",
+      "vaccinated": true,
+      "adoptableSince": "2025-01-10",
+      "location": {
+        "city": "Casablanca",
+        "state": "Casablanca-Settat",
+        "country": "Morocco"
+      },
+      "description": "Calm and cuddly",
+      "image": "/public/images/img9.jpeg"
+    },
+    {
       "id": 15,
       "name": "Leo",
       "species": "Cat",
@@ -876,25 +895,6 @@
       "description": "Quiet and contemplative"
     },
     {
-      "id": 19,
-      "name": "Athéna",
-      "species": "Rabbit",
-      "breed": "American Chinchilla",
-      "age": "1.5",
-      "gender": "Female",
-      "size": "Large",
-      "adoptionStatus": "Available",
-      "vaccinated": true,
-      "adoptableSince": "2025-04-02",
-      "location": {
-        "city": "Oujda",
-        "state": "Oriental",
-        "country": "Morocco"
-      },
-      "image": "/public/images/rabbit5.jpg",
-      "description": "Sensitive and gentle "
-    },
-    {
       "id": 20,
       "name": "Oliver",
       "species": "Cat",
@@ -914,44 +914,6 @@
       "description": "Calm and soothing "
     },
     {
-      "id": 21,
-      "name": "luxy",
-      "species": "Dog",
-      "breed": "Husky",
-      "age": 2,
-      "gender": "Male",
-      "size": "Large",
-      "adoptionStatus": "Available",
-      "vaccinated": true,
-      "adoptableSince": "2025-04-02",
-      "location": {
-        "city": "Oujda",
-        "state": "Oriental",
-        "country": "Morocco"
-      },
-      "image": "/public/images/dog12.jpeg",
-      "description": "Curious and adventurous"
-    },
-    {
-      "id": "24",
-      "name": "Nibbles",
-      "species": "Hamster",
-      "breed": "Syrian Hamster",
-      "age": 1,
-      "gender": "Male",
-      "size": "Small",
-      "adoptionStatus": "Adopted",
-      "vaccinated": true,
-      "adoptableSince": "2025-05-10",
-      "location": {
-        "city": "Agadir",
-        "state": "Souss-Massa",
-        "country": "Morocco"
-      },
-      "image": "/images/rabbit1.jpeg",
-      "description": "Friendly and loves to explore tunnels."
-    },
-    {
       "id": "26",
       "name": "Alex",
       "species": "Dog",
@@ -969,9 +931,26 @@
       },
       "image": "/images/dog7.jpeg",
       "description": "Friendly and loves to explore tunnels."
+    },
+    {
+      "id": 21,
+      "name": "luxy",
+      "species": "Dog",
+      "breed": "Husky",
+      "age": 2,
+      "gender": "Male",
+      "size": "Large",
+      "adoptionStatus": "Available",
+      "vaccinated": true,
+      "adoptableSince": "2025-04-02",
+      "location": {
+        "city": "Oujda",
+        "state": "Oriental",
+        "country": "Morocco"
+      },
+      "image": "/public/images/dog12.jpeg",
+      "description": "Curious and adventurous"
     }
-    
-    
 
   ]
 }
